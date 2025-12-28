@@ -6,7 +6,7 @@ Week-12 Challenge (SQL)
 ![Technologies](https://img.shields.io/badge/-JavaScript-007396?logo=JavaScript&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white)
-![Technologies](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)
+![Technologies](https://img.shields.io/badge/-PostgreSQL-4479A1?logo=PostgreSQL&logoColor=white)
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ node index.js
 ## Installation
 ***Requirments***
 
-[Node.js](https://nodejs.org/en/) | [Inquirer](https://www.npmjs.com/package/inquirer) | [MySQL](https://www.npmjs.com/package/mysql2)
+[Node.js](https://nodejs.org/en/) | [Inquirer](https://www.npmjs.com/package/inquirer) | [PostgreSQL](https://www.postgresql.org/)
 
 ***Once Installed:***
 1. Clone the Repository on to your machine.
@@ -46,6 +46,8 @@ node index.js
 3. Run the command ```npm install``` to download the packages.
 4. Then run the command ```node index.js``` to run the software.
 5. The command prompt will begin on your terminal
+
+**Note:** If using VS Code, shell integration is enabled by default, which automatically activates on supported shells. This can be disabled by setting `terminal.integrated.shellIntegration.enabled` to `false` in VS Code settings if needed.
 
 ## User Story
 ```

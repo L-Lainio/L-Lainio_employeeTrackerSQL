@@ -1,19 +1,21 @@
-const { Pool } = require("pg");
-const Sequelize = require("sequelize");
+const { Pool } = require('pg');
+require('dotenv').config(); // Essential to load the variables
 
-const dotenv = require('dotenv');
-dotenv.config();
-console.log (process.env);
-
-const connection = new Sequelize({
-    database: process.env.DB_NAME ?? "employee_db",
-    username: process.env.DB_USER ?? "postgres",
-    password: process.env.DB_PASSWORD,
-    host: process.env.DB_HOST ?? "127.0.0.1",
-    port: process.env.DB_PORT ?? 5432,
-    dialect: "postgres",
-
+const pool = new Pool({
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
+  password: process.env.DB_PASSWORD,
+  port: process.env.DB_PORT,
 });
 
+// Test the connection
+pool.connect((err) => {
+  if (err) {
+    console.error('Connection error', err.stack);
+  } else {
+    console.log('Connected to the employee database.');
+  }
+});
 
-module.exports = connection;
+module.exports = pool;

@@ -15,31 +15,25 @@ Employee.init(
             autoIncrement: true,
         },
 
-        firstName: {
+        first_name: {
             type: DataTypes.STRING,
             allowNull: false,
-
         },
 
-        lastName: {
+        last_name: {
             type: DataTypes.STRING,
             allowNull: false,
-
         },
 
-        employeeRole: {
-            type: DataTypes.STRING,
+        role_id: {
+            type: DataTypes.INTEGER,
             allowNull: false,
-
         },
 
-        manager: {
-            type: DataTypes.STRING,
-            allowNull: false,
-
+        manager_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
         }
-
-
     },
     {
         sequelize,
@@ -48,9 +42,6 @@ Employee.init(
         underscored: true,
         modelName: "Employee",
     }
-
-
-
 );
 
 module.exports = Employee;
