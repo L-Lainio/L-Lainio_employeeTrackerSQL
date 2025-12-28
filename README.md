@@ -93,12 +93,4 @@ SO THAT I can organize and plan my business
 - [x] Update employee roles
 - [x] Securely handle credentials via .env
 
-## 📧 Contact
-
-I'm happy to connect! You can find me on GitHub or reach out via the links below:
-
-- **Email**: lora.lainio.it@gmail.com
-- **LinkedIn**: [Lora Lainio](https://linkedin.com/in/lora-lainio)
-- **GitHub**: [L-Lainio](https://github.com/L-Lainio)
-
 © 2024-2026 and Beyond made with 💗 by Lora Lainio
