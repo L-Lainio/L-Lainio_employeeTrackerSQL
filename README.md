@@ -101,4 +101,4 @@ I'm happy to connect! You can find me on GitHub or reach out via the links below
 - **LinkedIn**: [Lora Lainio](https://linkedin.com/in/lora-lainio)
 - **GitHub**: [L-Lainio](https://github.com/L-Lainio)
 
-© 2024 Lora Lainio
+© 2024-2026 Lora Lainio
